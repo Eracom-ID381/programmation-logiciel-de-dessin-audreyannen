@@ -23,10 +23,7 @@ function mousePressed() {
     osc.start();
 }
 
-function windowResized() {
-    resizeCanvas(windowWidth, windowHeight);
-    background(0);
-}
+
 
 function keyPressed() {
     if (keyCode === BACKSPACE) {
