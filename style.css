@@ -6,11 +6,75 @@ body {
 
 a {
     font-weight: bold;
-    color: DarkCyan;
+    color: black;
 }
 
 a:hover {
     color: #EAFFFF;
+}
+
+.rose {
+    background-color: white;
+    color: black;
+    border: solid;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+}
+
+.rose:hover {
+    color: #FF1892;
+}
+
+.bleu {
+    background-color: white;
+    color: black;
+    border: solid;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+}
+
+.bleu:hover {
+    color: #0017DE;
+}
+
+.jaune {
+    background-color: white;
+    color: black;
+    border: solid;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+}
+
+.jaune:hover {
+    color: #FFF000;
+}
+
+.blanc {
+    background-color: white;
+    color: black;
+    border: solid;
+    padding: 15px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+}
+
+.blanc:hover {
+    color: #F1F1F1;
 }
 
 #container {
