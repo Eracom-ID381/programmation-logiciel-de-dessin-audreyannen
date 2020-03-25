@@ -17,8 +17,8 @@ function draw() {
     amp = map(mouseY, 0, height, 0, 1);
     if (mouseIsPressed === true) {
         line(mouseX, mouseY, 1680, 0);
-        osc.freq(freq);
-        osc.amp(amp);
+        osc.freq(freq, 0.2);
+        osc.amp(amp, 0.2);
     }
 }
 
